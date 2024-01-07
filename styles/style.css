@@ -21,10 +21,16 @@ h1 {
   font-family: 'Merriweather', serif;
 }
 
+header,
+main,
+footer {
+  max-width: 1320px;
+  margin: auto;
+}
+
 /* header start */
 
 header {
-  max-width: 1320px;
   height: 600px;
   margin: 50px auto;
   background-image: linear-gradient(to bottom, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../assets/images/Banner-Image.png');
@@ -54,3 +60,38 @@ header {
 }
 
 /* header end */
+
+/* main start */
+
+/* discunt section start */
+
+.discount {
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+}
+
+.discount-amount {
+  color: var(--primary);
+  font-size: 65px;
+  padding-bottom: 20px;
+}
+
+.discount-desc {
+  color: var(--primary);
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.category-title {
+  color: var(--dark);
+  font-size: 35px;
+  margin-bottom: 36px;
+}
+.discount img {
+  max-width: 600px;
+}
+
+/* discunt section end */
+
+/* main end */
