@@ -5,15 +5,52 @@
   --white: #ffffff;
   --dark: #070211;
 }
+
 /* default */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Inter', sans-serif;
 }
+
 h1 {
   font-family: 'Merriweather', serif;
 }
+
+/* header start */
+
+header {
+  max-width: 1320px;
+  height: 600px;
+  margin: 50px auto;
+  background-image: linear-gradient(to bottom, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../assets/images/Banner-Image.png');
+  border-radius: 16px;
+  border-radius: 16px;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-info {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.greeting {
+  font-size: 25px;
+}
+
+.main-title {
+  width: 60%;
+  margin: auto;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 75px;
+}
+
+/* header end */
