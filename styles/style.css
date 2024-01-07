@@ -1,0 +1,19 @@
+/* variables */
+:root {
+  --primary: #ff0000;
+  --secondary: rgba(7, 2, 17, 0.6);
+  --white: #ffffff;
+  --dark: #070211;
+}
+/* default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+h1 {
+  font-family: 'Merriweather', serif;
+}
