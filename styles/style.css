@@ -29,6 +29,10 @@ footer {
   margin: auto;
 }
 
+section {
+  padding: 100px 0;
+}
+
 /* reusable */
 
 .primary-btn {
@@ -41,6 +45,28 @@ footer {
   text-transform: uppercase;
   cursor: pointer;
   transition: all .3s;
+}
+
+.section-subtitle {
+  color: var(--primary);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+
+}
+
+.section-title {
+  color: var(--dark);
+  font-size: 48px;
+  margin: 16px 0 22px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.section-desc {
+  color: var(--dark-alpha);
+  line-height: 32px;
 }
 
 /* header start */
@@ -140,10 +166,35 @@ header {
 .party-welcome-info .primary-btn {
   margin-top: 30px;
 }
+
 .party-welcome-info .primary-btn:hover {
   color: var(--primary);
 }
 
 /* party welcome section end */
+
+/* portfolio section start */
+
+.portfolio-info {
+  max-width: 70%;
+  margin-bottom: 48px;
+}
+
+.portfolio-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.portfolio-items-container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-item {
+  border-radius: 16px;
+}
+
+/* portfolio section end */
 
 /* main end */
