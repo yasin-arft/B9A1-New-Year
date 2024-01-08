@@ -29,7 +29,7 @@ main {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 /* reusable */
@@ -51,7 +51,7 @@ section {
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: uppercase;
 
 }
 
@@ -162,7 +162,7 @@ header {
   line-height: 30px;
 }
 
-.join-now-btn{
+.join-now-btn {
   margin-top: 30px;
 }
 
@@ -171,6 +171,43 @@ header {
 }
 
 /* party welcome section end */
+
+/* best offer section start */
+
+.best-offer {
+  display: flex;
+  align-items: center;
+}
+
+.best-offer div {
+  flex: 1;
+}
+
+.best-offer-info.img {
+  text-align: center;
+}
+
+.best-offer-info.img img {
+  width: 350px;
+  border: 15px solid var(--primary);
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.best-offer-info.right .section-title {
+  color: var(--primary);
+  margin-bottom: 16px;
+}
+
+.best-offer-info.right {
+  padding-left: 30px;
+}
+
+.best-offer-info.right img {
+  margin-top: 40px;
+}
+
+/* best offer section end */
 
 /* portfolio section start */
 
@@ -192,6 +229,7 @@ header {
 
 .portfolio-item {
   border-radius: 16px;
+  overflow: hidden;
 }
 
 /* portfolio section end */
@@ -243,7 +281,6 @@ header {
   cursor: pointer;
   flex-grow: 2;
 }
-
 
 /* newsletter section end */
 
