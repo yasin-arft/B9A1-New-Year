@@ -23,8 +23,7 @@ h1 {
 }
 
 header,
-main,
-footer {
+main {
   max-width: 1320px;
   margin: auto;
 }
@@ -163,11 +162,11 @@ header {
   line-height: 30px;
 }
 
-.party-welcome-info .primary-btn {
+.join-now-btn{
   margin-top: 30px;
 }
 
-.party-welcome-info .primary-btn:hover {
+.join-now-btn:hover {
   color: var(--primary);
 }
 
@@ -205,9 +204,11 @@ header {
   text-align: center;
   padding: 80px 200px;
 }
+
 .newsletter .section-title {
   margin-top: 40px;
 }
+
 .newsletter .section-desc {
   margin: 22px 10px 48px;
 }
@@ -218,10 +219,11 @@ header {
   display: flex;
 }
 
-.newsletter-subscribe-form input{
+.newsletter-subscribe-form input {
   border: none;
   outline: none;
 }
+
 .newsletter-subscribe-form input[type="email"] {
   color: rgba(7, 2, 17, 0.30);
   font-size: 18px;
@@ -230,6 +232,7 @@ header {
   border-bottom-left-radius: 50px;
   flex-grow: 8;
 }
+
 .newsletter-subscribe-form input[type="submit"] {
   background-color: var(--primary);
   color: var(--white);
@@ -245,3 +248,84 @@ header {
 /* newsletter section end */
 
 /* main end */
+
+/* footer start */
+
+footer {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+footer .container {
+  max-width: 1320px;
+  margin: auto;
+  padding: 100px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.contact-info.top {
+  padding-bottom: 30px;
+}
+
+.contact-address {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.contact-links div {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.web-address {
+  text-transform: lowercase;
+}
+
+.contact-links div a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+footer .divider {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  ;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 40px 0;
+}
+
+.social-link-item img {
+  width: 50px;
+}
+
+.contact-info.bottom {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
+
+.unsubscribe-btn {
+  border-color: var(--white);
+  text-transform: capitalize;
+}
+
+.unsubscribe-btn:hover {
+  background-color: var(--white);
+  color: var(--dark);
+}
+
+/* footer end */
