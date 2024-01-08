@@ -89,6 +89,7 @@ header {
 
 .greeting {
   font-size: 25px;
+  margin-bottom: 16px;
 }
 
 .main-title {
@@ -181,6 +182,10 @@ header {
 
 .best-offer div {
   flex: 1;
+}
+
+.best-offer-info.left .section-desc {
+  padding-bottom: 40px;
 }
 
 .best-offer-info.img {
