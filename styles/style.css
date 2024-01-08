@@ -68,6 +68,10 @@ section {
   line-height: 32px;
 }
 
+.highlight {
+  color: var(--primary);
+}
+
 /* header start */
 
 header {
@@ -188,10 +192,6 @@ header {
   line-height: 45px;
 }
 
-.party-details .highlight {
-  color: var(--primary);
-}
-
 .party-details button {
   background-color: var(--primary);
 }
@@ -247,6 +247,35 @@ header {
 }
 
 /* best offer section end */
+
+/* holyday section start */
+
+.holyday-sale-info {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.holyday-sale-img {
+  background-image: url('../assets/images/Rectangle-2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.discount-img {
+  position: relative;
+  top: 1px;
+}
+
+.discount-amount {
+  position: absolute;
+  top: 10%;
+  right: 100%;
+  transform: translateX(50%);
+}
+
+/* holyday section end */
 
 /* portfolio section start */
 
