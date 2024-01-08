@@ -116,7 +116,7 @@ header {
   text-transform: uppercase;
 }
 
-.discount-amount {
+.discount .discount-amount {
   color: var(--primary);
   font-size: 65px;
   padding-bottom: 20px;
@@ -133,10 +133,6 @@ header {
   color: var(--dark);
   font-size: 35px;
   margin-bottom: 36px;
-}
-
-.discount img {
-  max-width: 600px;
 }
 
 /* discunt section end */
@@ -254,11 +250,12 @@ header {
   text-align: center;
   margin-bottom: 50px;
 }
+
 .holyday-sale-img {
   background-image: url('../assets/images/Rectangle-2.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: bottom center ;
+  background-position: bottom center;
   display: flex;
   justify-content: space-between;
 }
@@ -268,7 +265,7 @@ header {
   top: 1px;
 }
 
-.discount-amount {
+.holyday-sale-img .discount-amount {
   position: absolute;
   top: 10%;
   right: 100%;
