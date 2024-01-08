@@ -215,7 +215,7 @@ header {
 .newsletter-subscribe-form {
   width: 60%;
   margin: auto;
-  position: relative;
+  display: flex;
 }
 
 .newsletter-subscribe-form input{
@@ -223,23 +223,22 @@ header {
   outline: none;
 }
 .newsletter-subscribe-form input[type="email"] {
-  width: 100%;
   color: rgba(7, 2, 17, 0.30);
   font-size: 18px;
   padding: 20px 30px;
-  border-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  flex-grow: 8;
 }
 .newsletter-subscribe-form input[type="submit"] {
   background-color: var(--primary);
   color: var(--white);
   font-size: 20px;
-  padding: 19px 50px;
+  padding: 20px 40px;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
   cursor: pointer;
-  position: absolute;
-  top: 0;
-  right: 0;
+  flex-grow: 2;
 }
 
 
